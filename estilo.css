@@ -1,0 +1,398 @@
+*{
+   margin: 0px;
+   padding: 0px;
+   }
+   
+ body{
+      background:#888888;
+      font-family: arial;
+	  color: white;
+	  display: flex;
+	  min-height: 100vh;
+	  flex-direction: column;
+ }
+ #index {
+	 background-image: url(images/a.jpg);
+	background-size: cover;
+	transition: 1s;
+ }
+ #index:hover {
+	 background-image: url(images/ac.jpg);
+	 transition: 1s;
+ }
+ #sobre {
+	 	 background-image: url(images/image1.jpg);
+	background-size: cover;
+	transition: 1s;
+ }
+  #sobre:hover {
+	 	  background-image: url(images/image1b.jpg);
+	transition: 1s;
+ }
+ 
+ .sobrebackground {
+	background-image: url(images/image2.jpg);
+	border: 5px solid #222;
+	border-radius: 25px;
+	margin-top: 5%;
+	color: black;
+	width: 80vw;
+	margin-left: 8%;
+	position: relative;	
+	transition: 1s;
+ }
+ .sobrebackground:hover {
+	background-image: url(images/image2c.jpg);
+	transition: 1s;
+ }
+	
+#modelo {
+	background-image: url(images/image4.jpg);
+	background-size: cover;
+	transition: 1s;
+	color: white;
+}
+#modelo:hover {
+	background-image: url(images/image4b.jpg);
+	transition: 1s;
+}
+
+#contato {
+	background-image: url(images/image3.jpg);
+	background-size: cover;
+	transition: 1s;
+}
+#container {
+	
+	position: absolute;
+	width: 100%;	
+	height: 100%;
+	}
+#nav {
+  list-style: none;
+  display: flex; /* Aplicando flexbox */
+  align-items: center; /* Centraliza verticalmente os itens */
+  background-color: #222;
+  padding: 1.5% 0;
+}
+
+a {
+	text-decoration: none;
+	transition: 1s;
+	color: #0091fb;
+}
+
+#nav li{
+	float:left;
+}
+.litext {
+	font-size: 20px;
+	padding-left: 4vw;
+}
+#navimage {
+	margin-left: 3vw;
+	
+}
+#hidden {
+	visibility: hidden;
+}
+
+#indexarticle {
+	margin-left: 5%;
+	margin-top: 8%;
+	font-size: 5vh;
+	font-family: 'Times New Roman', cursive;
+	position: absolute;
+
+	}
+
+#subarticle {
+	color: black;
+	font-size: 4vh;
+	font-family: 'Dancing Script', cursive;
+	position: absolute;
+}
+
+#indexaside1 {
+	margin-left: 73%;
+	width: 18.5vw;
+	margin-top: 9%;
+	background-image: url(images/image1.jpg);
+	background-size: cover;
+	padding-left: 1.5%;
+	border: 1vh solid #222;
+	border-radius: 25px;
+	color: white;
+	font-size:  3vh;
+	font-family: 'Times New Roman', cursive;
+}
+#imagesdiv {
+	margin-left: 20%;
+     margin-right: 20%;
+}
+.indeximage {
+	width: 20%;
+	height: 30%;
+	border: 1vh solid #222;
+	border-radius: 25px;
+	margin-left: 73%;
+	margin-top: 3%;
+	position: absolute;
+	opacity: 0;
+	animation: fadein 10s infinite;
+}
+
+@keyframes fadein{
+  0% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  20% {
+    opacity: 1;
+  }
+  30% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+#image2 {
+	animation-delay: 2s;
+}
+#image3 {
+	animation-delay: 4s;
+}
+#image4 {
+	animation-delay: 6s;
+}
+#image5 {
+	animation-delay: 8s;
+}
+.title {
+	margin-left: 5%;
+	margin-top: 0;
+	font-size: 5vh;
+	font-family: 'Dancing Script', cursive;
+	
+}
+.text {
+	font-size: 3vh;
+	font-family: 'Times New Roman', cursive;
+	padding: 1.5% 5% 0% 5%;
+	color: black;
+}
+
+
+#modelotable, .modeloth, .modelotd {
+	margin-left: 25%;
+	border: 1px solid white;
+	color: white;
+	width: 50%;
+	text-align: center;
+}
+#modelotable {
+	background-image: url(images/image4.jpg);
+	background-size: cover;
+}
+
+#modelotitle {
+	background-image: url(images/image4.jpg);
+	border: 1vh solid #222;
+	margin-left: 35%;
+	width: 24vw;
+	margin-top: 2%;
+	font-size: 5vh;
+	font-family: 'Dancing Script', cursive;
+	background-size: cover;
+	color: black;
+}
+.modeloimage{
+	border: 1vh solid #222;
+	margin-left: 39.5%;
+}
+.modelotext {
+	background-image: url(images/image4.jpg);
+	border: 0.25vh solid #222;
+	font-size: 2vh;
+	width: 35%;
+	margin-left: 30%;
+	padding: 0.5%;
+	margin-bottom: 2vh;
+	background-size: cover;
+}
+
+#modelo1 {
+	width: 15vw;
+	height: 25vh;
+}
+#modelo2 {
+	width: 20vw;
+	height: 25vh;
+	margin-left: 37.5%;
+}
+#contatoconteudo {
+	background-image: url(images/image1.jpg);
+	background-size: cover;
+	border: 1vh solid #222;
+	height: 50%;
+	width: 40%;
+	margin-top: 7%;
+	position: absolute;
+	margin-left: 30%;
+}
+#contatotable {
+	margin-left: 12%;
+	margin-top: 12%;
+}
+#textarea {
+	width: 30vw;
+}
+#phone {
+	width: 30vw;
+}
+#nome {
+	width: 30vw;
+}
+#email {
+	width: 30vw;
+}
+
+textarea {
+	resize: none;
+}
+#link:hover {
+	border-bottom: 5px solid #4420b4;
+	transition: 1s;
+  }
+  
+  #contato2conteudo {
+	background-image: url(images/image1.jpg);
+	background-size: cover;
+	border: 1vh solid #222;
+	height: 50%;
+	width: 40%;
+	margin-top: 7%;
+	position: absolute;
+	margin-left: 30%;
+}
+#obrigado {
+	font-size: 4vh;
+	margin-top: 22vh;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.footer {
+    text-align: center;
+	line-height: 10vh;
+	color: #ccc;
+    background-color: #222;
+	position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+#footerindex {
+    text-align: center;
+	line-height: 5vh;
+	color: #ccc;
+    background-color: #222;
+	position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+}
+#ancora {
+	margin-left: 10%;
+	margin-bottom: 10%;
+	width: 100px;
+	position: absolute;
+}
+#pfooter {
+	margin-left: 30%;
+}
+#up {
+	width: 50%;
+	margin-left: 200%;
+	margin-top: 20%;
+	vertical-align: middle;
+	position: absolute;
+}
+@media screen and (max-width: 665px) {
+    #indexarticle {
+        font-size: 3vh;
+		position:relative;
+    }
+	#subarticle {
+		color: white;
+	}
+    #indexaside1 {
+		text-align: center;
+		margin-left: 25%;
+		width: 50%;
+		margin-top: 20%;
+        font-size: 2.5vh;	
+    }
+	#contato2conteudo {
+		height: 70%;
+		width: 70%;
+		margin-top: 12%;
+		margin-left: 13%;
+	}
+	#contatoconteudo {
+		width: 70%;
+		margin-left: 13%;
+		margin-top: 20%;
+	}
+	#textarea {
+	width: 50vw;
+}
+	#phone {
+	width: 50vw;
+}
+	#nome {
+	width: 50vw;
+}
+	#email {
+	width: 50vw;
+}
+	.modelotext {
+		width: 60%;
+		margin-left: 20%;
+	}
+	#modelotitle {
+		width: 60%;
+		text-align: center;
+		margin-left: 19.5%;
+		font-size: 3vh;
+	}
+	.modeloimage {
+		width: 20vh !important;
+		height: 15vh !important;
+		margin-left: 26.5% !important;
+	}
+    .indeximage {
+        height: 15%;
+		width: 40%;
+		margin-left: 31.5%;
+    }
+    .footer {
+        line-height: 5vh;
+    }
+	#up {
+		width: 10%;
+	}
+	#pfooter {
+		margin-left: 0;
+		font-size: 15px;
+	}
+	#ancora {
+	margin-left: 0%;
+	margin-bottom: 30%;
+}
+}
